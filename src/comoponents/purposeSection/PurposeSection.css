@@ -1,0 +1,71 @@
+.purpose-section {
+    text-align: center;
+    /* padding: 50px 20px; */
+    background-color: #f9f9f9;
+  }
+  
+  .purpose-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+  }
+  
+  .purpose-title {
+    color: #D2A164;
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 750px;
+   font-family: 'Futura Std';
+  }
+  
+  .purpose-description {
+    color: #0E1012CC;
+    font-size: 32px;
+    line-height: 51.2px;
+    font-weight: 400px;
+  }
+  
+  .purpose-video {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .purpose-video img {
+    max-width: 100%;
+    /* border-radius: 8px; */
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .purpose-quote {
+    background-color: #000;
+    color: #fff;
+    gap: 10px;    
+    padding: 5px 90px 42px 90px;
+  }
+  
+ .quote-by{
+  font-weight: 400px;
+  font-size: 32px;
+  line-height: 37px;
+ }
+  .quote {
+    font-size: 60px;
+    font-weight: 750px;
+    line-height: 96px;
+  }
+  

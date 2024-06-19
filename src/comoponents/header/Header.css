@@ -1,0 +1,15 @@
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .header .nav a:hover {
+    text-decoration: underline;
+  }
+  

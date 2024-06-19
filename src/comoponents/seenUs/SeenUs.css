@@ -1,0 +1,21 @@
+  .seen-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 20px; */
+    background-color: black;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .seen-us img {
+    margin: 10px;
+    max-height: 40px;
+    cursor: pointer;
+  }
+  .leveraging{
+    height: 102px;
+    background-color: white;
+    color: black;
+  }
+  

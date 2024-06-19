@@ -1,0 +1,73 @@
+.free-download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 40px;
+    color: #fff;
+    background-image: url("../../assets/freeDownloadBgImg.svg");
+}
+
+.free-download-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ebook-image {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.download-details {
+    text-align: left;
+}
+
+.download-details h2 {
+    font-family: 'Futura Std', sans-serif;
+    font-size: 32px;
+    font-weight: 750;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.download-details h3 {
+    font-family: 'Futura Std', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.download-button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #D2A164;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #b58448;
+}
